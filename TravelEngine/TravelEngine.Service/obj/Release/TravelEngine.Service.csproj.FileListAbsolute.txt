@@ -1,0 +1,11 @@
+D:\Charith\Projects\travelengine\TravelEngine.Service\bin\Release\TravelEngine.Service.dll
+D:\Charith\Projects\travelengine\TravelEngine.Service\bin\Release\TravelEngine.Service.pdb
+D:\Charith\Projects\travelengine\TravelEngine.Service\bin\Release\TravelEngine.Common.dll
+D:\Charith\Projects\travelengine\TravelEngine.Service\bin\Release\TravelEngine.Model.dll
+D:\Charith\Projects\travelengine\TravelEngine.Service\bin\Release\TravelEngine.Common.pdb
+D:\Charith\Projects\travelengine\TravelEngine.Service\bin\Release\TravelEngine.Model.pdb
+D:\Charith\Projects\travelengine\TravelEngine.Service\obj\Release\TravelEngine.Service.csprojResolveAssemblyReference.cache
+D:\Charith\Projects\travelengine\TravelEngine.Service\obj\Release\TravelEngine.Service.dll
+D:\Charith\Projects\travelengine\TravelEngine.Service\obj\Release\TravelEngine.Service.pdb
+D:\Charith\Projects\travelengine\TravelEngine.Service\bin\Release\EntityFramework.dll
+D:\Charith\Projects\travelengine\TravelEngine.Service\bin\Release\EntityFramework.xml

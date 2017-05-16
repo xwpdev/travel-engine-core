@@ -1,0 +1,10 @@
+D:\Charith\Projects\travelengine\TravelEngine.Model\bin\Release\TravelEngine.Model.dll
+D:\Charith\Projects\travelengine\TravelEngine.Model\bin\Release\TravelEngine.Model.pdb
+D:\Charith\Projects\travelengine\TravelEngine.Model\obj\Release\TravelEngine.Model.csprojResolveAssemblyReference.cache
+D:\Charith\Projects\travelengine\TravelEngine.Model\obj\Release\TravelEngine.Model.dll
+D:\Charith\Projects\travelengine\TravelEngine.Model\obj\Release\TravelEngine.Model.pdb
+D:\Charith\Projects\travelengine\TravelEngine.Model\bin\Release\TravelEngine.Model.dll.config
+D:\Charith\Projects\travelengine\TravelEngine.Model\bin\Release\EntityFramework.dll
+D:\Charith\Projects\travelengine\TravelEngine.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\Charith\Projects\travelengine\TravelEngine.Model\bin\Release\EntityFramework.xml
+D:\Charith\Projects\travelengine\TravelEngine.Model\bin\Release\EntityFramework.SqlServer.xml

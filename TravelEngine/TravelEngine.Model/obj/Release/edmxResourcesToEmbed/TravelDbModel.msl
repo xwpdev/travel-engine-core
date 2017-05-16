@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="travelenginedbModelStoreContainer" CdmEntityContainer="travelenginedbEntities">
+    <EntitySetMapping Name="Bookings">
+      <EntityTypeMapping TypeName="travelenginedbModel.Booking">
+        <MappingFragment StoreEntitySet="Booking">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RefId" ColumnName="RefId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="BusTimeId" ColumnName="BusTimeId" />
+          <ScalarProperty Name="SeatCount" ColumnName="SeatCount" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="StartLocation" ColumnName="StartLocation" />
+          <ScalarProperty Name="EndLocation" ColumnName="EndLocation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Buses">
+      <EntityTypeMapping TypeName="travelenginedbModel.Bus">
+        <MappingFragment StoreEntitySet="Bus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RegNo" ColumnName="RegNo" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BusTimes">
+      <EntityTypeMapping TypeName="travelenginedbModel.BusTime">
+        <MappingFragment StoreEntitySet="BusTime">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RouteId" ColumnName="RouteId" />
+          <ScalarProperty Name="BusId" ColumnName="BusId" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="TripTime" ColumnName="TripTime" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BusTypes">
+      <EntityTypeMapping TypeName="travelenginedbModel.BusType">
+        <MappingFragment StoreEntitySet="BusType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="travelenginedbModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FristName" ColumnName="FristName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerDevices">
+      <EntityTypeMapping TypeName="travelenginedbModel.CustomerDevice">
+        <MappingFragment StoreEntitySet="CustomerDevice">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="travelenginedbModel.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Routes">
+      <EntityTypeMapping TypeName="travelenginedbModel.Route">
+        <MappingFragment StoreEntitySet="Route">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="StartLocation" ColumnName="StartLocation" />
+          <ScalarProperty Name="EndLocation" ColumnName="EndLocation" />
+          <ScalarProperty Name="StopCount" ColumnName="StopCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seats">
+      <EntityTypeMapping TypeName="travelenginedbModel.Seat">
+        <MappingFragment StoreEntitySet="Seat">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BusId" ColumnName="BusId" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="SideId" ColumnName="SideId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SeatSides">
+      <EntityTypeMapping TypeName="travelenginedbModel.SeatSide">
+        <MappingFragment StoreEntitySet="SeatSide">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Side" ColumnName="Side" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SeatTypes">
+      <EntityTypeMapping TypeName="travelenginedbModel.SeatType">
+        <MappingFragment StoreEntitySet="SeatType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trips">
+      <EntityTypeMapping TypeName="travelenginedbModel.Trip">
+        <MappingFragment StoreEntitySet="Trip">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="DriverId" ColumnName="DriverId" />
+          <ScalarProperty Name="ConductorId" ColumnName="ConductorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TripBookings">
+      <EntityTypeMapping TypeName="travelenginedbModel.TripBooking">
+        <MappingFragment StoreEntitySet="TripBooking">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TripId" ColumnName="TripId" />
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="travelenginedbModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="Nic" ColumnName="Nic" />
+          <ScalarProperty Name="AddressNo" ColumnName="AddressNo" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTypes">
+      <EntityTypeMapping TypeName="travelenginedbModel.UserType">
+        <MappingFragment StoreEntitySet="UserType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
